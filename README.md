@@ -1,3 +1,18 @@
+
+Name: N. Vishnu Vardhan
+
+Company: CodTech IT Solutions
+
+ID: CT08DS6163
+
+Domain: Cyber Security & Ethical Hacking
+
+Duration: August 1st, 2024 to September 1st, 2024
+
+Mentor: Muzammil Ahmed
+
+
+
 Project Overview: Password Strength Checker
 
 
@@ -42,17 +57,7 @@ This project is a valuable addition to any application where password strength v
 
 Internship Details:
 
-Name: N. Vishnu Vardhan
 
-Company: CodTech IT Solutions
-
-ID: CT08DS6163
-
-Domain: Cyber Security & Ethical Hacking
-
-Duration: August 1st, 2024 to September 1st, 2024
-
-Mentor: Muzammil Ahmed
 
 
 
