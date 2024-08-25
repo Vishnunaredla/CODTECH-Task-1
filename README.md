@@ -14,6 +14,8 @@ Mentor: Muzammil Ahmed
 
 
 Project Overview: Password Strength Checker
+![Codtech task 1 ](https://github.com/user-attachments/assets/df0c8e5a-038f-485b-b179-947b65f7278e)
+
 
 
 
