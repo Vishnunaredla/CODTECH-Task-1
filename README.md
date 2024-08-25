@@ -1,4 +1,3 @@
-# CODTECH-Task-1
 Project Overview: Password Strength Checker
 
 
