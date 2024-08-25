@@ -1,0 +1,48 @@
+/* */
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String[]args){
+        Scanner pw = new Scanner(System.in);
+        System.out.println("Enter the password");
+        String password = pw.nextLine();
+        System.out.println("Entered password");
+        
+        int score = calculateStrengthPassword(password);
+        
+        if(score<3){
+            System.out.println("Password is weak make it better");
+        }
+        else if(score<5){
+            System.out.println("Password is medium if you want make it better");
+        } 
+        else{
+            System.out.println("Password is strong [ very good ]");
+        }
+        pw.close();
+    }
+      
+                public static int calculateStrengthPassword(String password) {
+
+            int score=0;
+            
+             if (password.length() >= 8) {
+            score++;
+            }
+            if(password.matches(".*[A-Z]*.")){
+                score++;
+            }
+            if(password.matches(".*[a-z]*.")){
+                score++;
+                
+            }
+            if(password.matches(".*[0-9]*.")){
+                score++;
+        }
+        if(password.matches(".*[~!@#$%^&*()_+=-]*.")){
+        score++;
+        
+    }
+    return score;
+}
+}
